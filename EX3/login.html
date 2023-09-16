@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <style>
+        body {
+            background-color: #222;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            color: #ff9800;
+        }
+
+        form {
+            margin: 20px auto;
+            max-width: 300px;
+            padding: 20px;
+            background-color: #333;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 3px;
+            background-color: #444;
+            color: #fff;
+            margin-bottom: 15px;
+        }
+
+        input[type="text"]:focus, input[type="password"]:focus {
+            outline: none;
+            box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+        }
+
+        input[type="submit"] {
+            background-color: #ff9800;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #ff6600;
+        }
+        
+        .error-message {
+            color: #ff6b6b;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+    </style>
+    <script>
+        function validateForm() {
+            var username = document.getElementById("uname").value;
+            var password = document.getElementById("pwd").value;
+            var usernameError = document.getElementById("usernameError");
+            var passwordError = document.getElementById("passwordError");
+
+            if (username === "") {
+                usernameError.textContent = "Please enter a username.";
+                return false;
+            } else {
+                usernameError.textContent = "";
+            }
+            if (password === "") {
+                passwordError.textContent = "Please enter a password.";
+                return false;
+            } else {
+                passwordError.textContent = "";
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>LOGIN PAGE</h1>
+    <form onsubmit="return validateForm();" method="post">
+        <label for="uname">User name:</label>
+        <input type="text" id="uname" name="uname">
+        <div class="error-message" id="usernameError"></div><br>
+        <label for="pwd">Password:</label>
+        <input type="password" id="pwd" name="pwd">
+        <div class="error-message" id="passwordError"></div><br>
+        <input type="submit" value="Login">
+    </form>
+</body>
+</html>
