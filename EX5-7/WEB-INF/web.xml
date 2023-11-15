@@ -1,0 +1,131 @@
+<web-app>   
+    <servlet>
+        <servlet-name>p1</servlet-name>
+        <servlet-class>p1</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>p1</servlet-name>
+        <url-pattern>/p1</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>p2</servlet-name>
+        <servlet-class>p2</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>p2</servlet-name>
+        <url-pattern>/p2</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>cookiepgm2</servlet-name>
+        <servlet-class>p6</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>cookiepgm2</servlet-name>
+        <url-pattern>/pgm6</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>p7_c1</servlet-name>
+        <servlet-class>p7_c1</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>p7_c1</servlet-name>
+        <url-pattern>/cookieC1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>p7_c2</servlet-name>
+        <servlet-class>p7_c2</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>p7_c2</servlet-name>
+        <url-pattern>/cookieC2</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>p8_h1</servlet-name>
+        <servlet-class>p8_h1</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>p8_h1</servlet-name>
+        <url-pattern>/hidden1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>p8_h2</servlet-name>
+        <servlet-class>p8_h2</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>p8_h2</servlet-name>
+        <url-pattern>/hidden2</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>p9_u1</servlet-name>
+        <servlet-class>p9_u1</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>p9_u1</servlet-name>
+        <url-pattern>/url1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>p9_u2</servlet-name>
+        <servlet-class>p9_u2</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>p9_u2</servlet-name>
+        <url-pattern>/url2</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>p13_db1</servlet-name>
+        <servlet-class>p13_db1</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>p13_db1</servlet-name>
+        <url-pattern>/db11</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>p13_db2</servlet-name>
+        <servlet-class>p13_db2</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>p13_db2</servlet-name>
+        <url-pattern>/db22</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>p13_db3</servlet-name>
+        <servlet-class>p13_db3</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>p13_db3</servlet-name>
+        <url-pattern>/db33</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>p14</servlet-name>
+        <servlet-class>p14</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>p14</servlet-name>
+        <url-pattern>/p14</url-pattern>
+    </servlet-mapping>
+</web-app>

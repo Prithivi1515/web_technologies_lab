@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Exam</title>
+    <style>
+        body {
+            background-color: #222;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            max-width: 600px;
+            padding: 20px;
+            background-color: #333;
+            border-radius: 10px;
+        }
+        h1 {
+            text-align: center;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input[type="text"], input[type="radio"] {
+            margin-left: 10px;
+        }
+        .submit-btn {
+            display: block;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Online Exam - HTML, CSS, and JavaScript</h1>
+        <form action="p14" method="post">
+            <label for="username">Username:</label>
+            <input type="text" name="username" required>
+            <br>
+
+            <p>Question 1: What does HTML stand for?</p>
+            <input type="radio" name="q1" value="Hyper Text Markup Language"> Hyper Text Markup Language
+            <input type="radio" name="q1" value="Highly Technical Modern Language"> Highly Technical Modern Language
+            <input type="radio" name="q1" value="Hyper Transfer and Markup Language"> Hyper Transfer and Markup Language
+
+            <p>Question 2: Which of the following is a CSS selector for class?</p>
+            <input type="radio" name="q2" value=".class-selector"> .class-selector
+            <input type="radio" name="q2" value="#id-selector"> #id-selector
+            <input type="radio" name="q2" value="element-selector"> element-selector
+
+            <p>Question 3: What is the purpose of JavaScript in web development?</p>
+            <input type="radio" name="q3" value="Styling web pages"> Styling web pages
+            <input type="radio" name="q3" value="Adding interactivity and behavior"> Adding interactivity and behavior
+            <input type="radio" name="q3" value="Defining page structure"> Defining page structure
+
+            <p>Question 4: What does CSS stand for in web development?</p>
+            <input type="radio" name="q4" value="Cascading Style Sheet"> Cascading Style Sheet
+            <input type="radio" name="q4" value="Creative Style Selector"> Creative Style Selector
+            <input type="radio" name="q4" value="Computer Style Set"> Computer Style Set
+
+            <p>Question 5: What is the CSS property used for changing the text color?</p>
+            <input type="radio" name="q5" value="background-color"> background-color
+            <input type="radio" name="q5" value="color"> color
+            <input type="radio" name="q5" value="font-size"> font-size
+
+            <br>
+            <input class="submit-btn" type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>

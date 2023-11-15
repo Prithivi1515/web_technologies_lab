@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>All Movies</h1>
+    <hr>
+
+    <a href="http://localhost:8080/MyServlets/db11" class="movie-link">Click to Display all Movies</a>
+    <hr>
+
+    <h3>View Genre Specific Movies</h3>
+    <form action="http://localhost:8080/MyServlets/db22" class="genre-form">
+        <label for="Genre">Genre</label>
+        <select id="Genre" name="Genre" class="genre-select">
+            <option value="empty">--</option>
+            <option value="sci-fi">SCIENCE FICTION</option>
+            <option value="action">ACTION</option>
+            <option value="thriller">THRILLER</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit" value="SUBMIT" class="submit-button">
+    </form>
+
+    <h2>Insert Data into DB</h2>
+    <form action="http://localhost:8080/MyServlets/db33" method="post" class="insert-form">
+        <p>Movie Name</p>
+        <input type="text" name="Movie_Name" class="input-field">
+        <p>Director Name</p>
+        <input type="text" name="Director_Name" class="input-field">
+        <p>Actor Name</p>
+        <input type="text" name="Actor_Name" class="input-field">
+        <p>Rating</p>
+        <input type="text" name="Rating" class="input-field">
+        <p>Genre</p>
+        <input type="text" name="Genre" class="input-field">
+        <br/><br/>
+        <input type="submit" class="submit-button">
+    </form>
+</body>
+</html>
