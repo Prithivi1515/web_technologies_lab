@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movies>
+    <movie>
+        <title>The Shawshank Redemption</title>
+        <director>Frank Darabont</director>
+        <year>1994</year>
+    </movie>
+    <movie>
+        <title>The Godfather</title>
+        <director>Francis Ford Coppola</director>
+        <year>1972</year>
+    </movie>
+    <movie>
+        <title>Pulp Fiction</title>
+        <director>Quentin Tarantino</director>
+        <year>1994</year>
+    </movie>
+</movies>
